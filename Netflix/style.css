@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 0rem;
+    margin: 20px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 4rem;
+    position: sticky;
+    top: 0;
+}
+
+.icon {
+    float: left;
+    height: auto;
+    width: 5rem;
+    margin: 8px;
+}
+
+.extra img {
+    width: 2.5rem;
+    margin: 2px;
+    float: right;
+}
+
+.links {
+    margin: 25px;
+}
+
+.navigation {
+    padding: 16px;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation div a {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+#home {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.home img{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+#main {
+    width: auto;
+    height: auto;
+}
+
+nav img {
+    padding: 10px;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+}
+
+.zoom-img {
+    width: 245px;
+    height: 150px;
+    border-radius: 1rem;
+    transition: transform 0.5s;
+}
+
+.zoom-img:hover {
+    transform: scale(1.5);
+    /* Set the scale on hover */
+}
+
+footer {
+    text-align: center;
+}
